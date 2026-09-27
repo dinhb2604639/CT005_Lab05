@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng công nghệ số trong học tập - Tổng hợp sản phẩm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 850px;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #1e293b;
+            margin-bottom: 30px;
+        }
+        .product-section {
+            margin-bottom: 40px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .product-section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        h2 {
+            color: #4f46e5;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .pdf-content-box {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid #4f46e5;
+        }
+        .pdf-content-box p {
+            text-align: justify;
+            line-height: 1.6;
+            color: #334155;
+            margin-bottom: 15px;
+        }
+        .btn-download {
+            display: inline-block;
+            background-color: #4f46e5;
+            color: #ffffff;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+        .btn-download:hover {
+            background-color: #4338ca;
+        }
+        .infographic-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            display: block;
+            margin: 0 auto;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Tỷ lệ 16:9 */
+            height: 0;
+            background: #000;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .footer-note {
+            font-size: 0.85em;
+            color: #64748b;
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Ứng dụng công nghệ số trong học tập</h1>
+
+        <!-- SẢN PHẨM 1: NỘI DUNG VĂN BẢN VÀ FILE PDF -->
+        <div class="product-section">
+            <h2>1. Tài liệu nghiên cứu (PDF)</h2>
+            <div class="pdf-content-box">
+                <p>Công nghệ số ngày càng đóng vai trò quan trọng trong học tập của học sinh. Nhờ Internet và các thiết bị thông minh, việc tìm kiếm kiến thức trở nên nhanh chóng và thuận tiện hơn. Học sinh có thể sử dụng máy tính, điện thoại hoặc máy tính bảng để tra cứu tài liệu, xem bài giảng trực tuyến và tham gia các lớp học từ xa.</p>
+                <p>Bên cạnh đó, nhiều ứng dụng giáo dục còn cung cấp bài tập tương tác, video minh họa và các bài kiểm tra giúp người học ghi nhớ kiến thức hiệu quả hơn. Công nghệ số cũng tạo điều kiện để học sinh trao đổi, thảo luận và làm việc nhóm với bạn bè dù ở xa. Tuy nhiên, việc sử dụng công nghệ cần có mục đích và thời gian hợp lí, tránh phụ thuộc vào thiết bị hoặc sao chép thông tin một cách máy móc. Vì vậy, mỗi học sinh cần biết khai thác công nghệ số một cách chủ động, sáng tạo và có trách nhiệm để nâng cao kết quả học tập.</p>
+                <p>Tóm lại, công nghệ số mở ra không gian tri thức vô tận, giúp việc học trở nên linh hoạt và hiệu quả hơn. Tuy nhiên, thành công chỉ đến khi người học biết kết hợp nhịp nhàng giữa phương tiện hiện đại và tư duy tự học sáng tạo, biến công nghệ thành người đồng hành đắc lực trên con đường chinh phục trí thức.</p>
+                
+                <!-- Nút liên kết đến file PDF gốc -->
+                <a href="Lab05_Ex1.2.pdf" class="btn-download" target="_blank">Xem / Tải file PDF gốc</a>
+            </div>
+        </div>
+
+        <!-- SẢN PHẨM 2: ẢNH INFOGRAPHIC (PNG) -->
+        <div class="product-section">
+            <h2>2. Infographic trực quan (PNG)</h2>
+            <img src="Lab05_Ex2.1_3.png" alt="Infographic Lợi ích của công nghệ số trong học tập" class="infographic-img">
+        </div>
+
+        <!-- SẢN PHẨM 3: VIDEO YOUTUBE -->
+        <div class="product-section">
+            <h2>3. Video giới thiệu (YouTube)</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/jZYnm0itqk0" 
+                        title="YouTube video player" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="footer-note">
+            Nội dung văn bản tham khảo từ Google Gemini, hình ảnh từ Unsplash (CC0)[cite: 9].
+        </div>
+    </div>
+
+</body>
+</html>
